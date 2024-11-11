@@ -1,0 +1,25 @@
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\bin\Debug\net8.0-windows\NgopiSek Project PBO.exe
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\bin\Debug\net8.0-windows\NgopiSek Project PBO.deps.json
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\bin\Debug\net8.0-windows\NgopiSek Project PBO.runtimeconfig.json
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\bin\Debug\net8.0-windows\NgopiSek Project PBO.dll
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\bin\Debug\net8.0-windows\NgopiSek Project PBO.pdb
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek_Project_PBO.Properties.Resources.resources
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek_Project_PBO.SplashScreen.resources
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek Project PBO.csproj.GenerateResource.cache
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek Project PBO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek Project PBO.AssemblyInfoInputs.cache
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek Project PBO.AssemblyInfo.cs
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek Project PBO.csproj.CoreCompileInputs.cache
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek Project PBO.dll
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\refint\NgopiSek Project PBO.dll
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek Project PBO.pdb
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek Project PBO.genruntimeconfig.cache
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\ref\NgopiSek Project PBO.dll
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek_Project_PBO.Views.Login.resources
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek_Project_PBO.Views.Controls.UCLogin.resources
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek_Project_PBO.Views.Controls.UCRegister.resources
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek Project PBO.csproj.AssemblyReference.cache
+C:\Users\fauzu\source\repos\NgopiSek Project PBO\NgopiSek Project PBO\obj\Debug\net8.0-windows\NgopiSek.DAC5D7E4.Up2Date
