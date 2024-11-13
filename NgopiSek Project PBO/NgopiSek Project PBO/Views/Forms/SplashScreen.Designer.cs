@@ -46,9 +46,11 @@
             // 
             // loadingBar
             // 
+            loadingBar.BackColor = Color.FromArgb(255, 192, 128);
             loadingBar.Location = new Point(391, 850);
             loadingBar.Name = "loadingBar";
             loadingBar.Size = new Size(1106, 39);
+            loadingBar.Style = ProgressBarStyle.Marquee;
             loadingBar.TabIndex = 1;
             // 
             // timer1

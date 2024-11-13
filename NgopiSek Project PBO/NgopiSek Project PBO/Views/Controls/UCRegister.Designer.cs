@@ -155,6 +155,7 @@
             btnRegister.TabIndex = 32;
             btnRegister.Text = "Register";
             btnRegister.UseVisualStyleBackColor = false;
+            btnRegister.Click += btnRegister_Click;
             btnRegister.MouseEnter += btnRegister_MouseEnter;
             btnRegister.MouseLeave += btnRegister_MouseLeave;
             // 

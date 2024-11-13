@@ -74,6 +74,7 @@
             btnSignIn.TabIndex = 16;
             btnSignIn.Text = "SIgn In";
             btnSignIn.UseVisualStyleBackColor = false;
+            btnSignIn.Click += btnSignIn_Click;
             btnSignIn.MouseEnter += btnSignIn_MouseEnter;
             btnSignIn.MouseLeave += btnSignIn_MouseLeave;
             // 
