@@ -118,8 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Logo NgopiSek Brown Version" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo NgopiSek Brown Version.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Quotes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Quotes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Product Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Product Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo NgopiSek Splash Screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo NgopiSek Splash Screen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,13 +133,31 @@
   <data name="SidePanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SidePanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo NgopiSek" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo NgopiSek.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo NgopiSek Brown Version" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo NgopiSek Brown Version.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SideBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SideBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hamburger Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hamburger Menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SideBar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SideBar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo NgopiSek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo NgopiSek.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Category Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Category Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Log Out Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Log Out Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pesanan Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pesanan Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
