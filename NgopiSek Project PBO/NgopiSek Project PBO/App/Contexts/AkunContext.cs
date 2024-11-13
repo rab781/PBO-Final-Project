@@ -1,8 +1,10 @@
 ﻿using NgopiSek_Project_PBO.App.Core;
+using NgopiSek_Project_PBO.App.Models;
 using Npgsql;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,65 +13,113 @@ namespace NgopiSek_Project_PBO.App.Contexts
 {
     internal class AkunContext : DatabaseWrapper
     {
-        // ---------------------- Mencari akun yang terdaftar di data base ---------------
-        // ------------------ Akun Admin dan Akun Kasir ----------------------------------
-        public static bool Login(string username, string password, string table)
+        private static string table = "role";
+
+        public static DataTable All()
         {
-            string query = $"select count(*) from {table} " + $"where username_{table} = @username and password_{table}=@password";
-
-            NpgsqlParameter[] parameters = new NpgsqlParameter[]
+            string query = $"SELECT * FROM {table}";
+            try
             {
-                new NpgsqlParameter("@username", username),
-                new NpgsqlParameter("@password", password),
-            };
-
-            openConnection();
-            command.CommandText = query;
-            command.Parameters.AddRange(parameters);
-            int hasil = Convert.ToInt32(command.ExecuteScalar());   
-            closeConnection();
-
-            return hasil > 0;
+                return queryExecutor(query);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in All(): {ex.Message}");
+                return null;
+            }
         }
-        // ----------------------- Digunakan untuk registrasi -------------------------------------
-        // ------------------ Pengecekan username terdapat pada data base ----------------
+
         public static bool cekUsername(string username, string table)
         {
-            string query = $"select count(*) from {table} " + $"where username_{table} = @username ";
-
+            string query = $"SELECT COUNT(*) FROM {table} WHERE username_{table} = @username";
             NpgsqlParameter[] parameters = new NpgsqlParameter[]
             {
                 new NpgsqlParameter("@username", username),
             };
 
-            openConnection();
-            command.CommandText = query;
-            command.Parameters.AddRange(parameters);
-            int hasil = Convert.ToInt32(command.ExecuteScalar());
-            closeConnection();
-
-            return hasil > 0;
+            try
+            {
+                openConnection();
+                command.CommandText = query;
+                command.Parameters.Clear();
+                command.Parameters.AddRange(parameters);
+                int result = Convert.ToInt32(command.ExecuteScalar());
+                closeConnection();
+                return result > 0;
+            }
+            catch (Exception ex)
+            {
+                closeConnection();
+                Console.WriteLine($"Error in cekUsername(): {ex.Message}");
+                return false;
+            }
         }
 
-        // ------------------- Pendaftaran Admin dan kasir-------------------
-        public static bool Registrasi(string nama, string username, string password, string table)
+        public static bool Registrasi(M_Pengguna pengguna)
         {
-            string query = $"INSERT INTO {table} (nama_{table}, username_{table}, password_{table}) VALUES(@nama, @username, @password)";
+            string query = $"INSERT INTO pengguna (nama_pengguna, username_pengguna, password_pengguna, id_role) " +
+                           $"VALUES(@nama, @username, @password, @id_role)";
+            NpgsqlParameter[] parameters = new NpgsqlParameter[]
+            {
+                new NpgsqlParameter("@nama", pengguna.nama_pengguna),
+                new NpgsqlParameter("@username", pengguna.username_pengguna),
+                new NpgsqlParameter("@password", pengguna.password_pengguna),
+                new NpgsqlParameter("@id_role", pengguna.id_role)
+            };
+
+            try
+            {
+                openConnection();
+                command.CommandText = query;
+                command.Parameters.Clear();
+                command.Parameters.AddRange(parameters);
+                int result = command.ExecuteNonQuery();
+                closeConnection();
+                return result > 0; 
+            }
+            catch (Exception ex)
+            {
+                closeConnection();
+                Console.WriteLine($"Error in Registrasi(): {ex.Message}");
+                return false;
+            }
+        }
+        public static bool Login(string username, string password, out int idRole)
+        {
+            string query = "SELECT id_role FROM pengguna WHERE username_pengguna = @username AND password_pengguna = @password";
 
             NpgsqlParameter[] parameters = new NpgsqlParameter[]
             {
-                new NpgsqlParameter("@nama", nama),
                 new NpgsqlParameter("@username", username),
                 new NpgsqlParameter("@password", password),
             };
 
-            openConnection();
-            command.CommandText = query;
-            command.Parameters.AddRange(parameters);
-            command.ExecuteNonQuery();
-            closeConnection();
+            idRole = 0;
 
-            return true;
+            try
+            {
+                openConnection();
+                command.CommandText = query;
+                command.Parameters.Clear();
+                command.Parameters.AddRange(parameters);
+
+                object result = command.ExecuteScalar();
+                closeConnection();
+
+                if (result != null)
+                {
+                    idRole = Convert.ToInt32(result);
+                    return true; // Login sukses
+                }
+
+                return false;
+            }
+            catch (Exception ex)
+            {
+                closeConnection();
+                Console.WriteLine($"Error: {ex.Message}");
+                return false;
+            }
         }
     }
 }
