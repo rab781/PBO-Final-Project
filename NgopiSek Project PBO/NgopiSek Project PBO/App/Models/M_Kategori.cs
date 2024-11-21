@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NgopiSek_Project_PBO.App.Models
 {
-    internal class M_Kategori
+    public class M_Kategori
     {
         [Key]
         public int id_kategori { get; set; }

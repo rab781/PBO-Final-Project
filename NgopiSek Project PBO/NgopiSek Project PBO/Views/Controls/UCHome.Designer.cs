@@ -35,7 +35,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Poppins", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(590, 520);
+            label1.Location = new Point(589, 520);
             label1.Name = "label1";
             label1.Size = new Size(273, 127);
             label1.TabIndex = 1;

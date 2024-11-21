@@ -191,19 +191,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fauzu\\.nuget\\packages\\": {}
+    "C:\\Users\\fauzu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fauzu\\source\\repos\\NgopiSek Project PBO\\NgopiSek Project PBO\\NgopiSek Project PBO.csproj",
+      "projectUniqueName": "D:\\Projectan Moment\\Project PBO\\PBO-Final-Project\\NgopiSek Project PBO\\NgopiSek Project PBO\\NgopiSek Project PBO.csproj",
       "projectName": "NgopiSek Project PBO",
-      "projectPath": "C:\\Users\\fauzu\\source\\repos\\NgopiSek Project PBO\\NgopiSek Project PBO\\NgopiSek Project PBO.csproj",
+      "projectPath": "D:\\Projectan Moment\\Project PBO\\PBO-Final-Project\\NgopiSek Project PBO\\NgopiSek Project PBO\\NgopiSek Project PBO.csproj",
       "packagesPath": "C:\\Users\\fauzu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fauzu\\source\\repos\\NgopiSek Project PBO\\NgopiSek Project PBO\\obj\\",
+      "outputPath": "D:\\Projectan Moment\\Project PBO\\PBO-Final-Project\\NgopiSek Project PBO\\NgopiSek Project PBO\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\fauzu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -227,8 +232,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -258,7 +264,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

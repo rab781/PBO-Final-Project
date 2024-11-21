@@ -34,7 +34,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1898, 1170);
+            ClientSize = new Size(1894, 1166);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "POSKasir";
             StartPosition = FormStartPosition.CenterScreen;

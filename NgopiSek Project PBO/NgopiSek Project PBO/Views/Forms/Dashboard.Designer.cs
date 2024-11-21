@@ -165,7 +165,6 @@
             // 
             btnHome.BackColor = Color.FromArgb(186, 115, 55);
             btnHome.BackgroundImageLayout = ImageLayout.None;
-            btnHome.FlatStyle = FlatStyle.Flat;
             btnHome.Font = new Font("Poppins", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnHome.ForeColor = Color.White;
             btnHome.Image = Properties.Resources.Home_Icon;

@@ -32,6 +32,7 @@
             panel3 = new Panel();
             panel2 = new Panel();
             panelLogin = new Panel();
+            npgsqlDataAdapter1 = new Npgsql.NpgsqlDataAdapter();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -74,6 +75,13 @@
             panelLogin.Size = new Size(1145, 1166);
             panelLogin.TabIndex = 3;
             // 
+            // npgsqlDataAdapter1
+            // 
+            npgsqlDataAdapter1.DeleteCommand = null;
+            npgsqlDataAdapter1.InsertCommand = null;
+            npgsqlDataAdapter1.SelectCommand = null;
+            npgsqlDataAdapter1.UpdateCommand = null;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -94,5 +102,6 @@
         private Panel panel3;
         private Panel panel2;
         private Panel panelLogin;
+        private Npgsql.NpgsqlDataAdapter npgsqlDataAdapter1;
     }
 }

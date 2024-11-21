@@ -18,6 +18,7 @@ namespace NgopiSek_Project_PBO.Views.Controls
         public UCLogin()
         {
             InitializeComponent();
+            textPassword.PasswordChar = '*';
         }
 
         private void btnSignIn_MouseEnter(object sender, EventArgs e)

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NgopiSek_Project_PBO.App.Models
 {
-    internal class M_Produk
+    public class M_Produk
     {
         [Key]
         public int id_produk { get; set; }

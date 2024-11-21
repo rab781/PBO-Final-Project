@@ -10,7 +10,7 @@
     <Compile Update="Views\Controls\UCLogin.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\Controls\UCPesanan.cs">
+    <Compile Update="Views\Controls\UCTransaksi.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\Controls\UCProduk.cs">
@@ -20,6 +20,12 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\Forms\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\EditProduk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\TambahProduk.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Views\Forms\Login.cs">

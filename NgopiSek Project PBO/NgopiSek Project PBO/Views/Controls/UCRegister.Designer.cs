@@ -50,7 +50,6 @@
             // 
             comboRole.Font = new Font("Poppins", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             comboRole.FormattingEnabled = true;
-            comboRole.Items.AddRange(new object[] { "Admin", "Kasir" });
             comboRole.Location = new Point(239, 724);
             comboRole.Name = "comboRole";
             comboRole.Size = new Size(680, 58);

@@ -85,7 +85,7 @@ namespace NgopiSek_Project_PBO.Views.Forms
 
         private void btnPesanan_Click(object sender, EventArgs e)
         {
-            UCPesanan pesanan = new UCPesanan();
+            UCTransaksi pesanan = new UCTransaksi();
             AddUserControl(pesanan);
             SetActiveMenu(btnPesanan);
         }

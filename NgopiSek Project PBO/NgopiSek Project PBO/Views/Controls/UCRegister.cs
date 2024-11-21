@@ -24,6 +24,9 @@ namespace NgopiSek_Project_PBO.Views.Controls
         public UCRegister()
         {
             InitializeComponent();
+            LoadRoleData();
+            textPassword.PasswordChar = '*';
+            textConfirmPassword.PasswordChar = '*';
         }
 
         private void btnRegister_MouseEnter(object sender, EventArgs e)
